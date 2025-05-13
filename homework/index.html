@@ -2,15 +2,191 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-  <title>Responsive</title>
+  <title>Homework: helathcare</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <!-- Your code here! Good luck! -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#hero" class="logo">
+        <img src="img/logo.png" alt="Health Care Logo">
+      </a>
+      <nav class="nav">
+        <ul>
+          <li><a href="#hero">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#services">SERVISES</a></li>
+          <li><a href="#pricing">PRICING</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="hero-overlay">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Professional Developers<br>Health Care</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Enim unde voluptas perspiciatis praesentium velit. Placeat!</p>
+          <div class="hero-icons">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-user-md"></i></a>
+            <a href="#"><i class="fas fa-chart-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container about-container">
+      <div class="about-image">
+        <img src="img/tools.png" alt="Laptop and Tools">
+      </div>
+      <div class="about-text">
+        <h2>About Clinic</h2>
+        <h3>PROFESSIONAL CARE</h3>
+        <p><strong>Medical Consulting</strong><br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti corrupti, asperiores dolorem eaque voluptates tempora pariatur. Mollitia, iste commodi.</p>
+        <p><strong>Laboratory analysis</strong><br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti corrupti, asperiores dolorem eaque voluptates tempora pariatur. Mollitia, iste commodi.</p>
+        <p><strong>Diagnostics</strong><br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti corrupti, asperiores dolorem eaque voluptates tempora pariatur. Mollitia, iste commodi.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <div class="services-header">
+        <h2>How we can help you</h2>
+        <h4>READ MORE ABOUT OUR SERVICES</h4>
+      </div>
+      <div class="service-cards">
+        <div class="card">
+          <img src="img/icons/oftalmology.jpg" alt="Ophthalmology">
+          <h3>Ophthalmology</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ratione molestias labore, odio totam illo.</p>
+        </div>
+        <div class="card">
+          <img src="img/icons/dentistry.jpg" alt="Dentistry">
+          <h3>Dentistry</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ratione molestias labore, odio totam illo.</p>
+        </div>
+        <div class="card">
+          <img src="img/icons/cardiology.jpg" alt="Cardiology">
+          <h3>Cardiology</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ratione molestias labore, odio totam illo.</p>
+        </div>
+        <div class="card">
+          <img src="img/icons/pediatrics.jpg" alt="Pediatrics">
+          <h3>Pediatrics</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ratione molestias labore, odio totam illo.</p>
+        </div>
+        <div class="card">
+          <img src="img/icons/laboratory.jpg" alt="Laboratory">
+          <h3>Laboratory</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ratione molestias labore, odio totam illo.</p>
+        </div>
+        <div class="card">
+          <img src="img/icons/radiology.jpg" alt="Radiology">
+          <h3>Radiology</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ratione molestias labore, odio totam illo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <h2>Our Special Offers</h2>
+      <h4>START TO BE HEALTHY TODAY</h4>
+      <div class="pricing-cards">
+        <div class="card">
+          <h3>Allergy Check</h3>
+          <p class="price">$255</p>
+          <p class="treatments">10 treatments</p>
+          <ul>
+            <li>Allergy Test</li>
+            <li>Consultation</li>
+            <li>Treatments</li>
+            <li>10 Procedures</li>
+            <li><strong>&times;</strong></li>
+            <li>Test Results</li>
+          </ul>
+          <button class="btn">Get Now</button>
+        </div>
+        <div class="card middle-card">
+          <h3>Eye Checkup</h3>
+          <p class="price">$108</p>
+          <p class="treatments">3 treatments</p>
+          <ul>
+            <li>Allergy Test</li>
+            <li>Consultation</li>
+            <li>Treatments</li>
+            <li>10 Procedures</li>
+            <li><strong>&times;</strong></li>
+            <li>Test Results</li>
+          </ul>
+          <button class="btn">Get Now</button>
+        </div>
+        <div class="card">
+          <h3>Dental Care</h3>
+          <p class="price">$320</p>
+          <p class="treatments">6 treatments</p>
+          <ul>
+            <li>Allergy Test</li>
+            <li>Consultation</li>
+            <li>Treatments</li>
+            <li>10 Procedures</li>
+            <li>Oral Hygiene</li>
+            <li>Test Results</li>
+          </ul>
+          <button class="btn">Get Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="contact-container">
+      <div class="contact-image">
+        <img src="img/contact_image.jpg" alt="Contact Nurse">
+      </div>
+      <div class="contact-form">
+        <h2>Make An Appointment</h2>
+        <p class="contact-subtitle">AND WE WILL CONTACT YOU</p>
+        <form>
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Email" required>
+          <input type="tel" placeholder="Phone" required>
+          <input type="date" placeholder="mm / dd / yyyy" required>
+          <input type="text" list="departments" placeholder="Subject" required>
+          <datalist id="departments">
+            <option value="Cardiology">
+            <option value="Dentistry">
+            <option value="Ophthalmology">
+            <option value="Pediatrics">
+            <option value="Laboratory">
+            <option value="Radiology">
+          </datalist>
+          <button type="submit" class="btn submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <a href="#hero" class="up-btn">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <footer>
+    <div class="container">
+      <p>Copyright &copy; 2021</p>
+    </div>
+  </footer>
 </body>
 </html>
